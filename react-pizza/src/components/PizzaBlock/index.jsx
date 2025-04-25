@@ -6,6 +6,7 @@ function PizzaBlock({title, price, imageUrl, sizes, types}) {
     const [activeSize, setActiveSize] = React.useState(0)
     const typeNames = ['thin', 'classic']
 
+
     return (
   <div className="pizza-block">
     <h4 className="pizza-block__title">{title}</h4>
